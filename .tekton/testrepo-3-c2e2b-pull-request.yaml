@@ -15,6 +15,7 @@ metadata:
     appstudio.openshift.io/application: testrepo3
     appstudio.openshift.io/component: testrepo-3-c2e2b
     pipelines.appstudio.openshift.io/type: build
+    kueue.x-k8s.io/queue-name: pipelines-queue
   name: testrepo-3-c2e2b-on-pull-request
   namespace: gbenhaim-tenant
 spec:
